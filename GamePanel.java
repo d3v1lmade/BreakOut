@@ -43,7 +43,7 @@ public class GamePanel extends JPanel implements ActionListener {
             }
         });
 
-        timer = new Timer(1000 / 60, this);  // Updates at about 60 FPS
+        timer = new Timer(1000 / 60, this);  
         timer.start();
     }
 
@@ -110,7 +110,7 @@ public class GamePanel extends JPanel implements ActionListener {
             drawGameOver(g, "You Win!");
         }
 
-        // Check for game over condition if the ball hits the bottom of the screen
+        
         if (ball.getY() > HEIGHT) {
             drawGameOver(g, "Game Over!");
         }
