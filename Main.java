@@ -7,8 +7,8 @@ public class Main {
         frame.setContentPane(panel);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setResizable(false);
-        frame.pack();  // Sizes the frame so that all its contents are at or above their preferred sizes
+        frame.pack();  
         frame.setVisible(true);
-        frame.setLocationRelativeTo(null);  // Center the window
+        frame.setLocationRelativeTo(null);  
     }
 }
