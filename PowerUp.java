@@ -14,7 +14,7 @@ public class PowerUp {
     }
 
     public void update() {
-        y += 1; // Power-ups fall down from the destroyed block
+        y += 1; // 
     }
 
     public void draw(Graphics g) {
