@@ -37,6 +37,6 @@ public class Paddle {
     }
 
     public void keyReleased(KeyEvent e) {
-        // Stop or slow down paddle movement if needed
+        
     }
 }
